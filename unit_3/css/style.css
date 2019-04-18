@@ -1,16 +1,10 @@
 body{
-	background-color: #f0f0f0;
-}
-
-*{
-	margin: 0;
-	padding: 0;
+	background-color: #fff;
 }
 
 .imgbox{
 	display: grid;
 	height: 100%;
-
 }
 
 .center-fit{
@@ -19,6 +13,14 @@ body{
 	margin: auto;
 }
 
-#slogan{
-	color:white;
+.logo{
+padding-left: 100px;
+padding-right: 100px;
+padding-top: 100px;
+}
+
+.herotext{
+	display: grid;
+	color: red;
+	background-color: yellow;
 }
