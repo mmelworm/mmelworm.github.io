@@ -3,7 +3,7 @@ body{
 }
 
 #hero{
-	width: relative;
+	position: relative;
 	height: 100%;
 
 }
