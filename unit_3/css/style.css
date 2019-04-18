@@ -1,10 +1,10 @@
 body{
-	background-image: url("images/fitbackground.jpg");
 	background-color: #6c6B6B;
 }
 
 #hero{
-	width: 100%;
+	width: 120%;
+
 }
 
 #slogan{
