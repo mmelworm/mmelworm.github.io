@@ -19,8 +19,7 @@ padding-right: 100px;
 padding-top: 100px;
 }
 
-.herotext{
-	display: grid;
+#slogan{
 	color: red;
 	background-color: yellow;
 }
