@@ -2,6 +2,6 @@ body{
 	background-color: #6c6B6B;
 }
 
-#hero{
-
+.hero{
+	background-size: cover;
 }
