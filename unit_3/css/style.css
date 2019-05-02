@@ -1,7 +1,9 @@
 body{
-	background-color: #fff;
+  background: lightblue url("images/fitness4.png") no-repeat fixed center; 
 }
 
+
+/*
 .imgbox{
 	display: grid;
 	height: 100%;
@@ -23,3 +25,4 @@ padding-top: 100px;
 	width: 1500px;
 	text-align: : center;
 }
+*/
