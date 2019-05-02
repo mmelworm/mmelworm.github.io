@@ -1,11 +1,30 @@
+@font-face {
+font-family: "Lemon Milk Bold";
+src: url("css/fonts/LemonMilkbold.otf");
+}
+
+@font-face{
+	font-family: "Lemon Milk";
+	src: url("css/fonts/LemonMilklight.otf");
+}
+
 body{
-  background: url("images/fitness4.png") no-repeat fixed center; 
+	font-family: "LemonMilklight";
   background-color: #f0f0f0;
+  color: #000034;
 }
 
 *{
 	padding: 0;
 	margin: 0;
+}
+
+h2{
+	color: #000034;
+}
+
+h3{
+	color: #f88906;
 }
 
 
@@ -15,7 +34,7 @@ body{
 }
 
 .center-fit{
-	max-height: 100vh;
+	max-height: 100%;
 	max-width: 100%;
 	margin: auto;
 }
@@ -26,9 +45,37 @@ padding-right: 100px;
 padding-top: 100px;
 }
 
-#slogan{
+#slogan h1{
 	width: 1500px;
-	text-align: : center;
+	text-align:center;
+	color:#000034;
+	font-family: "LemonMilkbold";
+	position: absolute;
+	padding-left: 350px;
+	padding-top: 375px;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#slogan h2{
+	width: 1500px;
+	text-align:center;
+	color:white;
+	font-family: "LemonMilkbold";
+	position: absolute;
+	padding-left: 535px;
+	padding-top: 425px;
+	max-height: 100%;
+	max-width: 100%;
+}
+}
+
+#booking div{
+	color:#000034;
+	width: 300px;
+	font-family: "LemonMilkbold";
+	position: absolute;
+	padding-top: 400px;
 }
 
 button{
@@ -41,35 +88,36 @@ button{
 	border-radius: 30px;
 	border:none;
 	font-size: 15px;
-	padding-top: -20px;
+	font-family: "LemonMilklight";
 }
 
 button:hover{
-	opacity: .75;
+	background-color: #93b9ff;
 }
 
-ul{
+.navbar{
 	float: right;
-	padding-right: 50px;
 	padding-top: 30px;
 	list-style-type: none;
 	color: #000034;
 }
 
-li {
-	display: block;
-	display: inline;
-	padding-left: 50px;
-	padding-top: 20px;
+.navbarsection {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
 	color: #000034;
 	size: 30px;
 	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
 }
 
 a{
 	text-decoration: none;
 	font-family: sans-serif;
 	color:#000034;
+	font-family: "LemonMilklight";
 	}
 
 a:hover{
@@ -77,11 +125,30 @@ a:hover{
 	float: center;
 }
 
-.book{
+.buttontext{
 	color: white;
-	font-weight: bold;
+}
+
+.buttontext:hover{
+	color: white;
+}
+
+.book{
+	width:125px;
+	height: 40px;
 }
 
 .book:hover{
+	background-color: #93b9ff;
+}
+
+.booktext{
 	color: white;
+}
+
+.underfold{
+	background-color: #dbdbdb;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
