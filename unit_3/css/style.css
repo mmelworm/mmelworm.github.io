@@ -1,5 +1,6 @@
 body{
   background: url("images/fitness4.png") no-repeat fixed center; 
+  background-color: #f0f0f0;
 }
 
 *{
@@ -28,4 +29,59 @@ padding-top: 100px;
 #slogan{
 	width: 1500px;
 	text-align: : center;
+}
+
+button{
+	background-color: #0145c4;
+	width: 100px;
+	height: 30px;
+	color: white;
+	float: right;
+	box-decoration-break: none;
+	border-radius: 30px;
+	border:none;
+	font-size: 15px;
+	padding-top: -20px;
+}
+
+button:hover{
+	opacity: .75;
+}
+
+ul{
+	float: right;
+	padding-right: 50px;
+	padding-top: 30px;
+	list-style-type: none;
+	color: #000034;
+}
+
+li {
+	display: block;
+	display: inline;
+	padding-left: 50px;
+	padding-top: 20px;
+	color: #000034;
+	size: 30px;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	font-family: sans-serif;
+	color:#000034;
+	}
+
+a:hover{
+	color: #f88906;
+	float: center;
+}
+
+.book{
+	color: white;
+	font-weight: bold;
+}
+
+.book:hover{
+	color: white;
 }
