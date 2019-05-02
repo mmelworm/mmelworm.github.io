@@ -2,6 +2,11 @@ body{
   background: url("images/fitness4.png") no-repeat fixed center; 
 }
 
+*{
+	padding: 0;
+	margin: 0;
+}
+
 
 /*
 .imgbox{
