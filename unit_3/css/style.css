@@ -24,6 +24,14 @@ body{
   color: #000034;
 }
 
+#signupbody{
+	background-color: white;
+}
+
+#signuphead{
+	background-color: #f0f0f0;
+}
+
 *{
 	padding: 0;
 	margin: 0;
@@ -194,3 +202,47 @@ li{
 #booktoday{
 	font-size: 30px;
 }
+
+#signupsheet{
+	position: absolute;
+	text-align: center;
+	align-content: center;
+	padding-top: 5%;
+	padding-left: 15%;
+
+}
+
+#signupsheetfull{
+	position: absolute;
+	align-content: middle;
+	text-align: center;
+	padding-left: 40vw;
+}
+
+input{
+	margin-top: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 5px;
+	height: 20px;
+	outline: none;
+}
+
+#submitbutton{
+	background-color: #0145c4;
+	width: 100px;
+	height: 30px;
+	color: white;
+	float: center;
+	box-decoration-break: none;
+	border-radius: 30px;
+	border:none;
+	font-size: 15px;
+	font-family: "LemonMilklight";
+}
+
+#submitbutton:hover{
+	background-color: #93b9ff;
+}
+
+

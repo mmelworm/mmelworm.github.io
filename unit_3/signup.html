@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head id="signuphead">
 	<title>DeltaFit</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css"> 
 		<div class="navbar">
 			<ul class="navbarwhole">
+				<li class="navbarsection"><a href="https://mmelworm.github.io/unit_3/index.html">Home</a></li>
 			<li class="navbarsection"><a href="#">Why DeltaFit</a></li>
   <li class="navbarsection"><a href="#">About</a></li>
   <li class="navbarsection"><a href="mailto:marissa@generalassembly.com">Contact</a></li>
@@ -14,8 +15,29 @@
 </ul>
 </div>
 </head>
-<body>
-		
+<body id="signupbody">
+		<img id="logo" src="images/deltafitlogo.png" alt="deltafitlogo" height="60">
+	<div id="signupsheetfull"><h1>Sign Up</h1>
+
+	<h3>First, tell us a little about yourself.</h3>
+
+	<form id="signupsheet">
+		First Name:
+	<input type="text" name="firstname"><br>
+	Last Name:
+	<input type="text" name="lastname"><br>
+	Gender:
+	<input type="radio" name="gender" value="Male" checked>Male
+	<input type="radio" name="gender" value="Female">Female<br>
+
+	Date of Birth:
+	<input type="date" name="dob"><br>
+	I am a:
+	<input type="checkbox" name="trainorgoer" value="Gym Goer">Gym Goer
+	<input type="checkbox" name="trainorgoer" value="Trainer">Trainer<br>
+	<input type="submit" name="submitsignup" value="Submit" id="submitbutton">
+	</form>
+</div>
 </body>
 <footer id="footer"></footer>
 </html>
