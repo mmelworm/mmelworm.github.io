@@ -207,8 +207,12 @@ li{
 	position: absolute;
 	text-align: center;
 	align-content: center;
-	padding-top: 5%;
-	padding-left: 15%;
+	padding-top: 20%;
+	margin: 0;
+	left: 50%;
+	margin-right: -50%;
+	float: center;
+	transform: translate(-50%,-50%);
 
 }
 
@@ -216,7 +220,8 @@ li{
 	position: absolute;
 	align-content: middle;
 	text-align: center;
-	padding-left: 40vw;
+	width: 100%;
+
 }
 
 input{
