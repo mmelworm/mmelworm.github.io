@@ -1,25 +1,25 @@
 @font-face {
-font-family: "Lemon Milk Bold";
+font-family: "Lemon Milk Bold", sans-serif;
 src: url("css/fonts/LemonMilkbold.otf");
 }
 
 @font-face{
-	font-family: "Lemon Milk";
+	font-family: "Lemon Milk", sans-serif;
 	src: url("css/fonts/LemonMilklight.otf");
 }
 
 @font-face{
-	font-family: "Montserrat";
+	font-family: "Montserrat", sans-serif;
 	src:url("https://fonts.googleapis.com/css?family=Montserrat");
 }
 
 @font-face{
-	font-family: "Stronger";
+	font-family: "Stronger", sans-serif;
 	src:url("css/fonts/Stronger.otf");
 }
 
 body{
-	font-family: "LemonMilklight";
+	font-family: "LemonMilklight", sans-serif;
   background-color: #f0f0f0;
   color: #000034;
 }
