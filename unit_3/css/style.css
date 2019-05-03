@@ -31,12 +31,14 @@ body{
 
 h2{
 	color: #000034;
-	font-family: "Stronger";
+	font-family: "Stronger", sans-serif;
 	font-size: 40px;
 }
 
 h3{
 	color: #f88906;
+	font-family: "LemonMilkbold", sans-serif;
+
 }
 
 
