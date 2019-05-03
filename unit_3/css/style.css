@@ -250,4 +250,30 @@ input{
 	background-color: #93b9ff;
 }
 
+#socialmedia{
+		width:33%;
+		position: absolute;
+		float: left;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+}
+
+#socialmediaicons{
+	display: inline-block;
+	position: absolute;
+	padding-left: 0px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+#socialmediaicons button{
+	margin: 0 auto;
+	width: 60px;
+	height: 60px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 
