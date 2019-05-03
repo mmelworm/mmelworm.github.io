@@ -9,8 +9,8 @@ src: url("css/fonts/LemonMilkbold.otf");
 }
 
 @font-face{
-	font-family: "Montserrat", sans-serif;
-	src:url("https://fonts.googleapis.com/css?family=Montserrat");
+	font-family: "Helmet", sans-serif;
+	src:url("css/fonts/Helmet-Regular.ttf");
 }
 
 @font-face{
@@ -144,6 +144,7 @@ button:hover{
 	font-weight: bold;
 	text-align: center;
 	vertical-align: middle;
+	font-size: 15px;
 }
 
 .navbarwhole{
@@ -178,7 +179,11 @@ a:hover{
 }
 
 p, li{
-	font-family: "Montserrat", sans-serif;
+	font-family: "Helmet", sans-serif;
+}
+
+li{
+	font-size: 20px;
 }
 
 #deliver{
