@@ -8,6 +8,16 @@ src: url("css/fonts/LemonMilkbold.otf");
 	src: url("css/fonts/LemonMilklight.otf");
 }
 
+@font-face{
+	font-family: "Montserrat";
+	src:url("https://fonts.googleapis.com/css?family=Montserrat");
+}
+
+@font-face{
+	font-family: "Stronger";
+	src:url("css/fonts/Stronger.otf");
+}
+
 body{
 	font-family: "LemonMilklight";
   background-color: #f0f0f0;
@@ -21,6 +31,8 @@ body{
 
 h2{
 	color: #000034;
+	font-family: "Stronger";
+	font-size: 40px;
 }
 
 h3{
@@ -47,24 +59,25 @@ padding-top: 100px;
 
 #slogan h1{
 	width: 1500px;
-	text-align:center;
 	color:#000034;
+	font-size: 2vw;
 	font-family: "LemonMilkbold";
 	position: absolute;
-	padding-left: 350px;
-	padding-top: 375px;
+	vertical-align: middle;
+	padding-top: 26%;
+	padding-left: 60%;
 	max-height: 100%;
 	max-width: 100%;
 }
 
-#slogan h2{
+#slogan p{
 	width: 1500px;
-	text-align:center;
 	color:white;
-	font-family: "LemonMilkbold";
+	font-family: "LemonMilklight";
+	font-size: 2vw;
 	position: absolute;
-	padding-left: 535px;
-	padding-top: 425px;
+	padding-top: 29.5%;
+	padding-left: 80.5%;
 	max-height: 100%;
 	max-width: 100%;
 }
@@ -76,6 +89,23 @@ padding-top: 100px;
 	font-family: "LemonMilkbold";
 	position: absolute;
 	padding-top: 400px;
+}
+
+#arrow{
+	width: 100%;
+}
+
+#arrow img{
+	margin: 0;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 50%;
+	padding-top: 92.3%;
+	margin-right: -50%;
+	align-content: center;
+	float: center;
+	transform: translate(-50%,-50%);
 }
 
 button{
@@ -100,6 +130,7 @@ button:hover{
 	padding-top: 30px;
 	list-style-type: none;
 	color: #000034;
+	vertical-align: middle;
 }
 
 .navbarsection {
@@ -111,6 +142,10 @@ button:hover{
 	font-weight: bold;
 	text-align: center;
 	vertical-align: middle;
+}
+
+.navbarwhole{
+	padding-top: 0px;
 }
 
 a{
@@ -133,22 +168,22 @@ a:hover{
 	color: white;
 }
 
-.book{
-	width:125px;
-	height: 40px;
-}
-
-.book:hover{
-	background-color: #93b9ff;
-}
-
-.booktext{
-	color: white;
-}
-
 .underfold{
 	background-color: #dbdbdb;
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+p, li{
+	font-family: "Montserrat", sans-serif;
+}
+
+#deliver{
+	font-family: "Stronger";
+	font-size: 3.5vw;
+}
+
+#booktoday{
+	font-size: 30px;
 }
