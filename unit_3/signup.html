@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html>
+
 <head id="signuphead">
 	<title>DeltaFit</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css"> 
-		<div class="navbar">
-			<ul class="navbarwhole">
-				<li class="navbarsection"><a href="https://mmelworm.github.io/unit_3/index.html">Home</a></li>
-			<li class="navbarsection"><a href="#">Why DeltaFit</a></li>
-  <li class="navbarsection"><a href="#">About</a></li>
-  <li class="navbarsection"><a href="mailto:marissa@generalassembly.com">Contact</a></li>
-  <li class="navbarsection"><button class="signup" onclick="window.location.href = '#';">Sign Up</button></li>
-
-  <li class="navbarsection"><button class="login" onclick="window.location.href = '#';">Log In</button></li>
-</ul>
-</div>
 </head>
+
 <body id="signupbody">
-		<img id="logo" src="images/deltafitlogo.png" alt="deltafitlogo" height="60">
+	<div class="navbar">
+		<ul class="navbarwhole">
+			<li class="navbarsection"><a href="#">Why DeltaFit</a></li>
+  			<li class="navbarsection"><a href="#">About</a></li>
+  			<li class="navbarsection"><a href="mailto:marissa@generalassembly.com">Contact</a></li>
+  			<li class="navbarsection"><button class="signup" onclick="window.location.href = 'signup.html';">Sign Up</button></li>
+  			<li class="navbarsection"><button class="login" onclick="window.location.href = '#';">Log In</button></li>
+		</ul>
+	</div>
+	<a href="index.html"><img id="logo" src="images/deltafitlogo.png" alt="deltafitlogo" height="60"></a>
 	<div id="signupsheetfull"><h1>Sign Up</h1>
+		<h3>First, tell us a little about yourself.</h3>
+		<form id="signupsheet">
+			First Name:
+			<input type="text" name="firstname"><br>
 
-	<h3>First, tell us a little about yourself.</h3>
+			Last Name:
+			<input type="text" name="lastname"><br>
 
-	<form id="signupsheet">
-		First Name:
-	<input type="text" name="firstname"><br>
-	Last Name:
-	<input type="text" name="lastname"><br>
-	Gender:
-	<input type="radio" name="gender" value="Male" checked>Male
-	<input type="radio" name="gender" value="Female">Female<br>
+			Gender:
+			<input type="radio" name="gender" value="Male" checked>Male
+			<input type="radio" name="gender" value="Female">Female<br>
 
-	Date of Birth:
-	<input type="date" name="dob"><br>
-	Email:
-	<input type="text" name="email"><br>
-	I am a:
-	<input type="checkbox" name="trainorgoer" value="Gym Goer">Gym Goer
-	<input type="checkbox" name="trainorgoer" value="Trainer">Trainer<br>
-	<input type="submit" name="submitsignup" value="Submit" id="submitbutton">
-	</form>
-</div>
+			Date of Birth:
+			<input type="date" name="dob"><br>
+
+			Email:
+			<input type="text" name="email"><br>
+
+			I am a:
+			<input type="checkbox" name="trainorgoer" value="Gym Goer">Gym Goer
+			<input type="checkbox" name="trainorgoer" value="Trainer">Trainer<br>
+			
+			<input type="submit" name="submitsignup" value="Submit" id="submitbutton">
+		</form>
+	</div>
 </body>
-<footer id="footer"></footer>
+
 </html>

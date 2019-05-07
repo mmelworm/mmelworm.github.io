@@ -22,6 +22,7 @@ body{
 	font-family: "LemonMilklight", sans-serif;
   background-color: #f0f0f0;
   color: #000034;
+  width: 100%;
 }
 
 #signupbody{
@@ -286,7 +287,7 @@ input{
 }
 
 #address{
-	margin-left: 33%;
+	margin-left: 30%;
 	padding-top: 20px;
 }
 
@@ -294,6 +295,14 @@ input{
     float: right;
     margin: auto;
     margin-top: -90px;
-    margin-right: 23%;
+    margin-right: 33%;
+}
+
+footer{
+	margin: 0 auto;
+	width: 100%;
+	display: inline-block;
+	position: absolute;
+	left: 15%;
 }
 
