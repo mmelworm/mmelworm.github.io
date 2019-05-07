@@ -272,15 +272,28 @@ input{
 	margin: 0 auto;
 	width: 60px;
 	height: 60px;
-	padding-left: 20px;
-	padding-right: 20px;
+	align-content: center;
+	vertical-align: middle;
 	margin-right: 20px;
 	color: white;
 }
 
 #socialmediaicons img{
 	color: white;
+	height: 30px;
+	align-content: center;
 	filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg); 
 }
 
+#address{
+	margin-left: 33%;
+	padding-top: 20px;
+}
+
+#contactbarfooter{
+    float: right;
+    margin: auto;
+    margin-top: -90px;
+    margin-right: 23%;
+}
 
