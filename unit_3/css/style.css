@@ -79,29 +79,35 @@ padding-right: 100px;
 padding-top: 100px;
 }
 
+#slogan{
+	position: absolute;
+	text-align: right;
+	margin-left: 60%;
+	margin-top: 15%;
+}
+
 #slogan h1{
-	/*width: 1500px;*/
 	color:#000034;
 	font-size: 2vw;
 	font-family: "LemonMilkbold";
-	position: absolute;
 	vertical-align: middle;
 	padding-top: 26%;
-	padding-left: 60%;
 	max-height: 100%;
 	max-width: 100%;
 }
 
-#slogan p{
-	/*width: 1500px;*/
+/*#slogan p{
 	color:white;
 	font-family: "LemonMilklight";
 	font-size: 2vw;
-	position: absolute;
-	padding-top: 29.5%;
-	padding-left: 80.5%;
 	max-height: 100%;
 	max-width: 100%;
+}*/
+
+#slogan button{
+	width: 10vw;
+	height: 3vw;
+	font-size: 1.25vw;
 }
 
 
