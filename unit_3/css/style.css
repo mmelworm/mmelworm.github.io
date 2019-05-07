@@ -25,6 +25,7 @@ body{
   width: 100%;
 }
 
+
 #signupbody{
 	background-color: white;
 }
@@ -36,6 +37,8 @@ body{
 *{
 	padding: 0;
 	margin: 0;
+	font-size: 1vw;
+	word-wrap: break-word;
 }
 
 h2{
@@ -48,6 +51,14 @@ h3{
 	color: #f88906;
 	font-family: "LemonMilklight", sans-serif;
 
+}
+
+.underfold li{
+	font-size: 1.5vw;
+}
+
+.underfold h2{
+	font-size: 3vw;
 }
 
 
@@ -69,7 +80,7 @@ padding-top: 100px;
 }
 
 #slogan h1{
-	width: 1500px;
+	/*width: 1500px;*/
 	color:#000034;
 	font-size: 2vw;
 	font-family: "LemonMilkbold";
@@ -82,7 +93,7 @@ padding-top: 100px;
 }
 
 #slogan p{
-	width: 1500px;
+	/*width: 1500px;*/
 	color:white;
 	font-family: "LemonMilklight";
 	font-size: 2vw;
@@ -153,7 +164,13 @@ button:hover{
 	font-weight: bold;
 	text-align: center;
 	vertical-align: middle;
-	font-size: 15px;
+	font-size: 1vw;
+}
+
+.navbarsection button{
+	font-size: 1vw;
+	width: 7vw;
+	height: 2vw;
 }
 
 .navbarwhole{
@@ -275,7 +292,7 @@ input{
 	height: 60px;
 	align-content: center;
 	vertical-align: middle;
-	margin-right: 20px;
+	margin-right: 2vw;
 	color: white;
 }
 
@@ -286,23 +303,39 @@ input{
 	filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg); 
 }
 
-#address{
-	margin-left: 30%;
-	padding-top: 20px;
-}
-
 #contactbarfooter{
-    float: right;
-    margin: auto;
-    margin-top: -90px;
-    margin-right: 33%;
+	padding-top: 20px;
+	margin-left: 30%;
 }
 
 footer{
 	margin: 0 auto;
-	width: 100%;
 	display: inline-block;
 	position: absolute;
-	left: 15%;
+	width: 100vw;
+	left: 50%;
+	margin-right: -50%;
+	float: center;
+	transform: translate(-50%,-50%);
 }
 
+#footercontent{
+	width: 100%;
+    position: absolute;
+    font-size: 1vw;
+    /*margin: 100px;
+	left: 50%;
+	margin-right: -50%;
+	float: center;
+	transform: translate(-50%,-50%);*/
+}
+
+#footercontent button{
+	width: 4vw;
+	height: 4vw;
+}
+
+#footercontent img{
+	width: 2vw;
+	height: 2vw;
+}
