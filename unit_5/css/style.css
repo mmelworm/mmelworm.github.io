@@ -17,14 +17,11 @@ src: url("css/fonts/LemonMilkbold.otf");
 
 body{
 	font-family: "LemonMilklight", sans-serif;
-  /*background-color: #f0f0f0;*/
-  color: #000034;
-  width: 100%;
+	background-color: #f0f0f0;
+	color: #000034;
+	width: 100%;
 }
 
-#wrapper{
-	width: 900px;
-}
 
 #signupbody{
 	background-color: white;
@@ -297,7 +294,7 @@ input{
 	position: absolute;
 	padding-left: 0px;
 	padding-right: 20px;
-	padding-top: 20px;
+	padding-top: 1em;
 	padding-bottom: 40px;
 }
 
@@ -332,24 +329,21 @@ footer{
 	margin-right: -50%;
 	float: center;
 	transform: translate(-50%,-50%);
-	background-color: #6c6b6b;
 }
 
 #footercontent{
 	width: 100%;
     position: absolute;
     font-size: 1vw;
-    background-color: #6c6b6b;
-    /*margin: 100px;
-	left: 50%;
-	margin-right: -50%;
-	float: center;
-	transform: translate(-50%,-50%);*/
+    background-color: #000034;
+    height: 15em;
+    margin-bottom: 0;
+    color: white;
 }
 
 #footercontent h5{
 	font-size: 1vw;
-	color: #000034;
+	color: white;
 }
 
 #footercontent button{
@@ -360,6 +354,14 @@ footer{
 #footercontent img{
 	width: 2vw;
 	height: 2vw;
+}
+
+#footercontent a{
+	color: #93b9ff;
+}
+
+#footercontent a:hover{
+	color: #0145c4;
 }
 
 #testimonials img{
@@ -389,4 +391,10 @@ footer{
 	text-align: center;
 	padding-left: 25px;
 	padding-right: 25px;
+}
+
+#quotes{
+	color: #f88966;
+	font-family: "Stronger", sans-serif;
+	font-size: 5em;
 }
