@@ -22,6 +22,29 @@ body{
 	width: 100%;
 }
 
+header{
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav{
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+div,section{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
 
 #signupbody{
 	background-color: white;
@@ -281,7 +304,7 @@ input{
 }
 
 #socialmedia{
-		width:33%;
+		width:22%;
 		position: absolute;
 		float: left;
 		padding-top: 20px;
@@ -320,17 +343,7 @@ input{
 	margin-left: 30%;
 }
 
-footer{
-	margin: 0 auto;
-	display: inline-block;
-	position: absolute;
-	width: 100vw;
-	left: 50%;
-	margin-right: -50%;
-	float: center;
-	transform: translate(-50%,-50%);
-}
-
+/*
 #footercontent{
 	width: 100%;
     position: absolute;
@@ -340,6 +353,7 @@ footer{
     margin-bottom: 0;
     color: white;
 }
+*/
 
 #footercontent h5{
 	font-size: 1vw;
@@ -401,4 +415,5 @@ footer{
 
 #copyright{
 	color: white;
+	float: middle;
 }
