@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo');
+
+@font-face {
+font-family: "Lemon Milk Bold", sans-serif;
+src: url("css/fonts/LemonMilkbold.otf");
+}
+
+@font-face{
+	font-family: "Lemon Milk", sans-serif;
+	src: url("css/fonts/LemonMilklight.otf");
+}
+
+@font-face{
+	font-family: "Stronger", sans-serif;
+	src:url("css/fonts/Stronger.otf");
+}
+
+body{
+	font-family: "LemonMilklight", sans-serif;
+	background-color: #f0f0f0;
+	color: #000034;
+	width: 100%;
+}
+
+
+#signupbody{
+	background-color: white;
+}
+
+#signuphead{
+	background-color: #f0f0f0;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 1vw;
+	word-wrap: break-word;
+}
+
+h2{
+	color: #000034;
+	font-family: "Stronger", sans-serif;
+	font-size: 40px;
+}
+
+h3{
+	font-size: 20px;
+}
+
+h4{
+	color: #f88906;
+	font-family: "LemonMilklight", sans-serif;
+	font-size: 1.25vw;
+}
+
+h6{
+	color: #2b2b2b;
+}
+
+h5{
+	color: #f88906;
+	font-size: 1.25vw;
+}
+
+.underfold li{
+	font-size: 1.25vw;
+}
+
+.underfold h2{
+	font-size: 3vw;
+}
+
+
+.imgbox{
+	display: grid;
+	height: 100%;
+}
+
+.center-fit{
+	max-height: 100%;
+	max-width: 100%;
+	margin: auto;
+}
+
+.logo{
+padding-left: 100px;
+padding-right: 100px;
+padding-top: 100px;
+}
+
+#slogan{
+	position: absolute;
+	text-align: right;
+	margin-left: 60%;
+	margin-top: 15%;
+}
+
+#slogan h1{
+	color:#000034;
+	font-size: 2vw;
+	font-family: "LemonMilkbold";
+	vertical-align: middle;
+	padding-top: 26%;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+/*#slogan p{
+	color:white;
+	font-family: "LemonMilklight";
+	font-size: 2vw;
+	max-height: 100%;
+	max-width: 100%;
+}*/
+
+#slogan button{
+	width: 10vw;
+	height: 3vw;
+	font-size: 1.25vw;
+}
+
+
+#booking div{
+	color:#000034;
+	width: 300px;
+	font-family: "LemonMilkbold";
+	position: absolute;
+	padding-top: 400px;
+}
+
+#arrow{
+	width: 100%;
+}
+
+#arrow img{
+	margin: 0;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 50%;
+	padding-top: 92.3%;
+	margin-right: -50%;
+	align-content: center;
+	float: center;
+	transform: translate(-50%,-50%);
+}
+
+button{
+	background-color: #0145c4;
+	width: 100px;
+	height: 30px;
+	color: white;
+	float: right;
+	box-decoration-break: none;
+	border-radius: 30px;
+	border:none;
+	font-size: 15px;
+	font-family: "LemonMilklight";
+}
+
+button:hover{
+	background-color: #93b9ff;
+}
+
+.navbar{
+	float: right;
+	padding-top: 30px;
+	list-style-type: none;
+	color: #000034;
+	vertical-align: middle;
+}
+
+.navbarsection {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #000034;
+	size: 30px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 1vw;
+}
+
+.navbarsection button{
+	font-size: 1vw;
+	width: 7vw;
+	height: 2vw;
+}
+
+.navbarwhole{
+	padding-top: 0px;
+}
+
+a{
+	text-decoration: none;
+	font-family: sans-serif;
+	color:#000034;
+	font-family: "LemonMilklight";
+	}
+
+a:hover{
+	color: #f88906;
+	float: center;
+}
+
+.buttontext{
+	color: white;
+}
+
+.buttontext:hover{
+	color: white;
+}
+
+.underfold{
+	background-color: #dbdbdb;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+p, li{
+	font-family: "Heebo", sans-serif;
+}
+
+#deliver{
+	font-family: "Stronger";
+	font-size: 3.5vw;
+}
+
+#booktoday{
+	font-size: 30px;
+}
+
+#signupsheet{
+	position: absolute;
+	text-align: center;
+	align-content: center;
+	padding-top: 20%;
+	margin: 0;
+	left: 50%;
+	margin-right: -50%;
+	float: center;
+	transform: translate(-50%,-50%);
+
+}
+
+#signupsheetfull{
+	position: absolute;
+	float: center;
+	text-align: center;
+	padding-top: 100px;
+	width: 100%;
+}
+
+input{
+	margin-top: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 5px;
+	height: 20px;
+	outline: none;
+}
+
+#submitbutton{
+	background-color: #0145c4;
+	width: 100px;
+	height: 30px;
+	color: white;
+	float: center;
+	box-decoration-break: none;
+	border-radius: 30px;
+	border:none;
+	font-size: 15px;
+	font-family: "LemonMilklight";
+}
+
+#submitbutton:hover{
+	background-color: #93b9ff;
+}
+
+#socialmedia{
+		width:22%;
+		position: absolute;
+		float: left;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+}
+
+#socialmediaicons{
+	display: inline-block;
+	position: absolute;
+	padding-left: 0px;
+	padding-right: 20px;
+	padding-top: 1em;
+	padding-bottom: 40px;
+}
+
+#socialmediaicons button{
+	margin: 0 auto;
+	width: 60px;
+	height: 60px;
+	align-content: center;
+	vertical-align: middle;
+	margin-right: 2vw;
+	color: white;
+}
+
+#socialmediaicons img{
+	color: white;
+	height: 30px;
+	align-content: center;
+	filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg); 
+}
+
+#contactbarfooter{
+	padding-top: 20px;
+	margin-left: 30%;
+}
+
+/*
+#footercontent{
+	width: 100%;
+    position: absolute;
+    font-size: 1vw;
+    background-color: #000034;
+    height: 15em;
+    margin-bottom: 0;
+    color: white;
+}
+*/
+
+#footercontent h5{
+	font-size: 1vw;
+	color: white;
+}
+
+#footercontent button{
+	width: 4vw;
+	height: 4vw;
+}
+
+#footercontent img{
+	width: 2vw;
+	height: 2vw;
+}
+
+#footercontent a{
+	color: #93b9ff;
+}
+
+#footercontent a:hover{
+	color: #0145c4;
+}
+
+#testimonials img{
+	border-radius: 90px;
+	width: 10vw;
+	margin: 10px;
+}
+
+#testimonials{
+	text-align: center;
+	background-color: white;
+	overflow-x: hidden;
+}
+
+#testimonials h3{
+	padding-top: 30px;
+}
+
+#testimonials p{
+	padding-top: 10px;
+}
+
+#test1, #test2, #test3, #test4{
+	width: 18vw;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	text-align: center;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#quotes{
+	color: #f88966;
+	font-family: "Stronger", sans-serif;
+	font-size: 5em;
+}
+
+#copyright{
+	color: white;
+	float: middle;
+}
+
+#howto{
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left{
+	background-color: #E582a2;
+	border: 1px black solid;
+	padding:20px;
+	float: left;
+	width: 52%;
+}
+
+#right{
+	background-color: #E55b88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 40%;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
