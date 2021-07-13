@@ -1,33 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Josefin+Sans:ital,wght@0,400;1,100&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Heebo');
 
 @font-face {
 font-family: "Lemon Milk Bold", sans-serif;
-src: url("css/fonts/LemonMilkbold.otf");
-src: url('LemonMilkbold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('LemonMilkbold.woff2') format('woff2'), /* Super Modern Browsers */
-       url('LemonMilkbold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('LemonMilkbold.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('LemonMilkbold.svg#svgFontName') format('svg');
+src: url("/css/fonts/LemonMilkbold.otf");
 }
 
 @font-face{
-font-family: "Permanent Marker", cursive;
-src: url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+	font-family: "Lemon Milk", sans-serif;
+	src: url("/css/fonts/LemonMilklight.otf");
 }
 
 @font-face{
-font-family: 'Heebo', sans-serif;
-src: url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+	font-family: "Stronger", sans-serif;
+	src:url("/css/fonts/Stronger.otf");
 }
-
-@font-face{
-font-family: 'Josefin Sans', sans-serif;
-src: url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,100&display=swap");
-}
-
 
 body{
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: "LemonMilklight", sans-serif;
 	background-color: #f0f0f0;
 	color: #000034;
 	width: 100%;
@@ -51,7 +40,7 @@ body{
 
 h2{
 	color: #000034;
-	font-family: 'Permanent Marker', cursive;
+	font-family: "Stronger", sans-serif;
 	font-size: 40px;
 }
 
@@ -61,7 +50,7 @@ h3{
 
 h4{
 	color: #f88906;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: "LemonMilklight", sans-serif;
 	font-size: 1.25vw;
 }
 
@@ -110,7 +99,7 @@ padding-top: 100px;
 #slogan h1{
 	color:#000034;
 	font-size: 2vw;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: "LemonMilkbold";
 	vertical-align: middle;
 	padding-top: 26%;
 	max-height: 100%;
@@ -135,7 +124,7 @@ padding-top: 100px;
 #booking div{
 	color:#000034;
 	width: 300px;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: "LemonMilkbold";
 	position: absolute;
 	padding-top: 400px;
 }
@@ -167,7 +156,7 @@ button{
 	border-radius: 30px;
 	border:none;
 	font-size: 15px;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: "LemonMilklight";
 }
 
 button:hover{
@@ -208,7 +197,7 @@ a{
 	text-decoration: none;
 	font-family: sans-serif;
 	color:#000034;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: "LemonMilklight";
 	}
 
 a:hover{
@@ -232,11 +221,11 @@ a:hover{
 }
 
 p, li{
-	font-family: 'Heebo', sans-serif;
+	font-family: "Heebo", sans-serif;
 }
 
 #deliver{
-	font-family: 'Permanent Marker', cursive;
+	font-family: "Stronger";
 	font-size: 3.5vw;
 }
 
@@ -284,7 +273,7 @@ input{
 	border-radius: 30px;
 	border:none;
 	font-size: 15px;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: "LemonMilklight";
 }
 
 #submitbutton:hover{
@@ -398,7 +387,7 @@ input{
 
 #quotes{
 	color: #f88966;
-	font-family: 'Permanent Marker', cursive;
+	font-family: "Stronger", sans-serif;
 	font-size: 5em;
 }
 
