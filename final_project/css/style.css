@@ -1,7 +1,5 @@
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Heebo');
-</style>
 
 @font-face {
 font-family: "Lemon Milk Bold", sans-serif;
@@ -11,6 +9,11 @@ src: url('LemonMilkbold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('LemonMilkbold.woff') format('woff'), /* Pretty Modern Browsers */
        url('LemonMilkbold.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('LemonMilkbold.svg#svgFontName') format('svg');
+}
+
+@font-face{
+font-family: "Permanent Marker", cursive;
+src: url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 }
 
 @font-face{
