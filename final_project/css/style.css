@@ -91,7 +91,7 @@ h5{
 .center-fit{
 	width: 100%;
 	height: auto;
-	margin: auto;
+	/*margin: auto;*/
 }
 
 .logo{
