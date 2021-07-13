@@ -85,7 +85,7 @@ h5{
 
 .imgbox{
 	display: grid;
-	height: 100%;
+	max-width: 100%;
 }
 
 .center-fit{
