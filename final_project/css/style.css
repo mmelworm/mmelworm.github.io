@@ -1,22 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Heebo');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Josefin+Sans&family=Permanent+Marker&display=swap');
 
-@font-face {
-font-family: "Lemon Milk Bold", sans-serif;
-src: url("/css/fonts/LemonMilkbold.otf");
+@font-face{
+	font-family: 'Josefin Sans', sans-serif;
+	src: url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 }
 
 @font-face{
-	font-family: "Lemon Milk", sans-serif;
-	src: url("/css/fonts/LemonMilklight.otf");
+	font-family: 'Permanent Marker', cursive;
+	src:url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 }
 
 @font-face{
-	font-family: "Stronger", sans-serif;
-	src:url("/css/fonts/Stronger.otf");
+	font-family: 'Heebo', sans-serif;
+	src:url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
 }
 
 body{
-	font-family: "LemonMilklight", sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	background-color: #f0f0f0;
 	color: #000034;
 	width: 100%;
@@ -40,7 +40,7 @@ body{
 
 h2{
 	color: #000034;
-	font-family: "Stronger", sans-serif;
+	font-family: 'Permanent Marker', cursive;
 	font-size: 40px;
 }
 
@@ -50,7 +50,7 @@ h3{
 
 h4{
 	color: #f88906;
-	font-family: "LemonMilklight", sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 1.25vw;
 }
 
@@ -99,7 +99,7 @@ padding-top: 100px;
 #slogan h1{
 	color:#000034;
 	font-size: 2vw;
-	font-family: "LemonMilkbold";
+	font-family: 'Josefin Sans', sans-serif;
 	vertical-align: middle;
 	padding-top: 26%;
 	max-height: 100%;
@@ -124,7 +124,7 @@ padding-top: 100px;
 #booking div{
 	color:#000034;
 	width: 300px;
-	font-family: "LemonMilkbold";
+	font-family: 'Josefin Sans', sans-serif;
 	position: absolute;
 	padding-top: 400px;
 }
@@ -156,7 +156,7 @@ button{
 	border-radius: 30px;
 	border:none;
 	font-size: 15px;
-	font-family: "LemonMilklight";
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 button:hover{
@@ -197,7 +197,7 @@ a{
 	text-decoration: none;
 	font-family: sans-serif;
 	color:#000034;
-	font-family: "LemonMilklight";
+	font-family: 'Josefin Sans', sans-serif;
 	}
 
 a:hover{
@@ -225,7 +225,7 @@ p, li{
 }
 
 #deliver{
-	font-family: "Stronger";
+	font-family: 'Permanent Marker', cursive;
 	font-size: 3.5vw;
 }
 
@@ -273,7 +273,7 @@ input{
 	border-radius: 30px;
 	border:none;
 	font-size: 15px;
-	font-family: "LemonMilklight";
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 #submitbutton:hover{
@@ -387,7 +387,7 @@ input{
 
 #quotes{
 	color: #f88966;
-	font-family: "Stronger", sans-serif;
+	font-family: 'Permanent Marker', cursive;
 	font-size: 5em;
 }
 
