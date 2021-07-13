@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Heebo');
-
 @font-face {
 font-family: "Lemon Milk Bold", sans-serif;
-src: url("/css/fonts/LemonMilkbold.otf");
+src: url("css/fonts/LemonMilkbold.otf");
 }
 
 @font-face{
 	font-family: "Lemon Milk", sans-serif;
-	src: url("/css/fonts/LemonMilklight.otf");
+	src: url("css/fonts/LemonMilklight.otf");
 }
 
 @font-face{
 	font-family: "Stronger", sans-serif;
-	src:url("/css/fonts/Stronger.otf");
+	src:url("css/fonts/Stronger.otf");
 }
+
+@import url('https://fonts.googleapis.com/css?family=Heebo');
 
 body{
 	font-family: "LemonMilklight", sans-serif;
