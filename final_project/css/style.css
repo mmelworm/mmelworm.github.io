@@ -13,10 +13,8 @@ src: url('LemonMilkbold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
 	src: url("css/fonts/LemonMilklight.otf");
 }
 
-@font-face{
-	font-family: "Stronger", sans-serif;
-	src:url("css/fonts/Stronger.otf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 
 @import url('https://fonts.googleapis.com/css?family=Heebo');
 
@@ -45,7 +43,7 @@ body{
 
 h2{
 	color: #000034;
-	font-family: "Stronger", Fallback, sans-serif;
+	font-family: 'Permanent Marker', cursive;
 	font-size: 40px;
 }
 
@@ -230,7 +228,7 @@ p, li{
 }
 
 #deliver{
-	font-family: "Stronger";
+	font-family: 'Permanent Marker', cursive;
 	font-size: 3.5vw;
 }
 
@@ -392,7 +390,7 @@ input{
 
 #quotes{
 	color: #f88966;
-	font-family: "Stronger", sans-serif;
+	font-family: 'Permanent Marker', cursive;
 	font-size: 5em;
 }
 
