@@ -108,6 +108,7 @@ margin-top: 10%;
 	margin-left: 60%;
 	margin-top: 15%;
 	margin-right:10%;
+	padding-right: 5%;
 }
 
 #slogan h1{
@@ -116,7 +117,6 @@ margin-top: 10%;
 	font-family: 'Josefin Sans', sans-serif;
 	vertical-align: middle;
 	padding-top: 26%;
-	padding-right: 5%;
 	max-height: 100%;
 	max-width: 100%;
 }
