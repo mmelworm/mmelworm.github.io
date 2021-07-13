@@ -1,6 +1,11 @@
 @font-face {
 font-family: "Lemon Milk Bold", sans-serif;
 src: url("css/fonts/LemonMilkbold.otf");
+src: url('LemonMilkbold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('LemonMilkbold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('LemonMilkbold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('LemonMilkbold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('LemonMilkbold.svg#svgFontName') format('svg');
 }
 
 @font-face{
