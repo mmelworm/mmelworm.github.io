@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css?family=Heebo');
+
 @font-face {
 font-family: "Lemon Milk Bold", sans-serif;
 src: url("css/fonts/LemonMilkbold.otf");
@@ -13,10 +18,7 @@ src: url('LemonMilkbold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
 	src: url("css/fonts/LemonMilklight.otf");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-
-@import url('https://fonts.googleapis.com/css?family=Heebo');
 
 body{
 	font-family: "LemonMilklight", Fallback, sans-serif;
