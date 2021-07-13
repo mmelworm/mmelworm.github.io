@@ -16,7 +16,7 @@ src: url("css/fonts/LemonMilkbold.otf");
 @import url('https://fonts.googleapis.com/css?family=Heebo');
 
 body{
-	font-family: "LemonMilklight", sans-serif;
+	font-family: "LemonMilklight", Fallback, sans-serif;
 	background-color: #f0f0f0;
 	color: #000034;
 	width: 100%;
