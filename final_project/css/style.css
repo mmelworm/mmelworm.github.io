@@ -89,7 +89,7 @@ h5{
 }
 
 .center-fit{
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 	margin: auto;
 }
