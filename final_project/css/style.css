@@ -1,15 +1,15 @@
 @font-face {
-font-family: "Lemon Milk Bold", sans-serif;
+font-family: "Lemon Milk Bold", Fallback, sans-serif;
 src: url("css/fonts/LemonMilkbold.otf");
 }
 
 @font-face{
-	font-family: "Lemon Milk", sans-serif;
+	font-family: "Lemon Milk", Fallback, sans-serif;
 	src: url("css/fonts/LemonMilklight.otf");
 }
 
 @font-face{
-	font-family: "Stronger", sans-serif;
+	font-family: "Stronger", Fallback, sans-serif;
 	src:url("css/fonts/Stronger.otf");
 }
 
